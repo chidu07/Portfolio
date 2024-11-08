@@ -4441,3 +4441,94 @@ td:last-child {
         right: -2rem;
     }
 }
+
+
+
+
+
+
+
+/* my updates */
+
+
+
+
+/* Cards Layout */
+.s-education__cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .s-education__card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 24%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .s-education__card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .s-education__card-header {
+    background-color: #3498db;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .s-education__degree {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .s-education__institution {
+    font-size: 14px;
+    margin-top: 5px;
+    font-weight: 400;
+  }
+  
+  .s-education__card-body {
+    padding: 20px;
+  }
+  
+  .s-education__duration,
+  .s-education__percentage,
+  .s-education__cgpa {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .s-education__cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .s-education__card {
+      width: 80%;
+      margin-bottom: 20px;
+    }
+  }
+
+  
+
+
+
+  /* Add some space between sections */
+#education {
+    margin-bottom: 50px;  
+  }
+  
+  #projects {
+    margin-top: 50px;  
+  }
+
+  
