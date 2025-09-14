@@ -2189,8 +2189,9 @@ button.btn--large {
 button.btn--stroke {
     background : transparent !important;
     font-weight: 700;
+    
     border     : 2px solid var(--color-btn-stroke);
-    color      : var(--color-btn-stroke-text);
+    color: #fff !important; 
 }
 
 .btn--stroke:focus,
